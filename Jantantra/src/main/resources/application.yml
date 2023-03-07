@@ -1,0 +1,10 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jantantra
+    username: amk
+    password: Liberty@2023
+  jpa:
+    hibernate:
+      ddl-auto: update
